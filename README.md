@@ -19,6 +19,13 @@
 `npm test`
 
 
+### To make it work with your own VS Code Hyperledger Fabric platform
+
+copy the crypt-config files in the hidden folder .fabric-vscode/wallets/local_fabric_wallet/admin into the project directory location src/common/config/creds<br>
+
+make sure that you change the channel name of your custom chaincode in the file appconfig.ts
+
+
 
 
 
